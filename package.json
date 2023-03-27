@@ -9,6 +9,9 @@
     "format": "nx format:write",
     "test": "nx test"
   },
+  "engines": {
+    "node": "18"
+  },
   "private": true,
   "dependencies": {
     "@avaya/neo-react": "^0.8.5",

@@ -3,6 +3,8 @@ import { downloadAndZip } from 'src/api/download-zip';
 
 import styles from './app.module.scss';
 
+import "@avaya/neo-react/avaya-neo-react.css";
+
 import { Button } from '@avaya/neo-react';
 export function App() {
   const download2 = () => {
