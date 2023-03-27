@@ -19,3 +19,13 @@ Run `npx nx connect-to-nx-cloud` to enable [remote caching](https://nx.app) and 
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
+
+## steps to setup
+
+added avaya neo react lib
+
+added bluebird, jszip, file-saver
+
+fix duplicate promise problem by renaming to BlueBirdPromise
+
+fix fetch not defined problem by using node 18

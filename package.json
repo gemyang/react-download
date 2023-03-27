@@ -9,6 +9,10 @@
   },
   "private": true,
   "dependencies": {
+    "@avaya/neo-react": "^0.8.5",
+    "bluebird": "^3.7.2",
+    "file-saver": "^2.0.5",
+    "jszip": "^3.10.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
@@ -22,6 +26,8 @@
     "@nrwl/vite": "15.8.9",
     "@nrwl/workspace": "15.8.9",
     "@testing-library/react": "14.0.0",
+    "@types/bluebird": "^3.5.38",
+    "@types/file-saver": "^2.0.5",
     "@types/node": "18.14.2",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
