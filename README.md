@@ -34,13 +34,16 @@ fix fetch not defined problem by using node 18
 
 https://via.placeholder.com/600/771796
 
-## free wav files
-https://www.wavsource.com/movie_stars/bogart.htm
+## free wav files one can download and play
+
+https://file-examples.com/index.php/sample-audio-files/sample-wav-download/
+
+Note: <audio> player by default skip cors check, so playback is usually smooth. But fetch goes through cors checking first, so Chrome CORS extension is needed if servers are not configured right on CORS.
 
 ## FileSaver
 
 https://github.com/eligrey/FileSaver.js
 
-## StreamSaver examples
+## StreamSaver examples; uses service worker, thus https
 
 https://github.com/jimmywarting/StreamSaver.js/tree/master/examples
