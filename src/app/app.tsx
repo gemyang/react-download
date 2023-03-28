@@ -47,6 +47,11 @@ export function App() {
       <p>
         {counter} of {total} downloaded
       </p>
+      <a href="https://www.wavsource.com/snds_2020-10-01_3728627494378403/movie_stars/bogart/down_to_cases.wav">
+        Play a wav file
+      </a>
+      <div>TODO: Download a wav file</div>
+      <div>TODO: Download many wav files</div>
     </div>
   );
 }

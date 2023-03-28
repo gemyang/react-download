@@ -33,3 +33,14 @@ fix fetch not defined problem by using node 18
 ## A good image generator
 
 https://via.placeholder.com/600/771796
+
+## free wav files
+https://www.wavsource.com/movie_stars/bogart.htm
+
+## FileSaver
+
+https://github.com/eligrey/FileSaver.js
+
+## StreamSaver examples
+
+https://github.com/jimmywarting/StreamSaver.js/tree/master/examples
