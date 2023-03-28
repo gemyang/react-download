@@ -29,3 +29,7 @@ added bluebird, jszip, file-saver
 fix duplicate promise problem by renaming to BlueBirdPromise
 
 fix fetch not defined problem by using node 18
+
+## A good image generator
+
+https://via.placeholder.com/600/771796

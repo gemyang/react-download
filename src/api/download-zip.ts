@@ -6,10 +6,13 @@ const download = (url) => {
   return fetch(url).then((resp) => resp.blob());
 };
 
-const downloadByGroup = (urls, files_per_group = 5) => {
+const downloadByGroup = (urls, files_per_group = 5, cb) => {
   return BlueBirdPromise.map(
     urls,
-    async (url) => {
+    async (url, index, arrayLength) => {
+      if (cb) {
+        cb(`downloading ${url}, ${index} in ${arrayLength}`);
+      }
       return await download(url);
     },
     { concurrency: files_per_group }
@@ -30,4 +33,8 @@ const exportZip = (blobs) => {
 
 export const downloadAndZip = (urls) => {
   return downloadByGroup(urls, 5).then(exportZip);
+};
+
+export const downloadAndZipWithCallback = (urls, cb) => {
+  return downloadByGroup(urls, 5, cb).then((value) => exportZip(value));
 };
